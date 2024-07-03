@@ -4,24 +4,21 @@
 // Declarativa
 // Açucar sintático
 
-import React from "react";
-import Titulo from "./components/Title";
-import Mensagem from "./components/Message";
+
 import Foot from "./components/Foot";
+import Blog from "./components/Blog/";
+import Navbar from "./components/Navbar";
 
 // Componente principal da aplicação
 function App() {
   return (
     <>
       <main>
-        <Titulo />
-        <Mensagem />
-        <Mensagem />
-        <Mensagem />
-        <Mensagem />
-        <Mensagem />
-      </main>
+        <Navbar logado ={true} nomeUsuario="Feliz"/>
+       <Blog />
+       </main>
       <Foot />
+
     </>
   );
 }
