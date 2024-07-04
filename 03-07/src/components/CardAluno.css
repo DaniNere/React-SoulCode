@@ -1,15 +1,16 @@
 .card-aluno {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-  }
-  
-  .aprovado {
-    background-color: lightgreen;
-  }
-  
-  .reprovado {
-    background-color: lightcoral;
-  }
-  
+  background-color: rgb(230, 230, 230);
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  width: 300px;
+  margin: 8px auto;
+}
+
+.aprovado {
+  color: rgb(98, 153, 98);  
+}
+
+.reprovado {
+  color: rgb(179, 95, 95);  
+ }

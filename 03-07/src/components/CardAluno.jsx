@@ -1,20 +1,17 @@
 import "./CardAluno.css";
 
-const CardAluno = ({ nome, serie, media }) => {
-    // Verifica se o aluno está aprovado ou reprovado
-    const status = media >= 7 ? 'Aprovado!' : 'Reprovado!';
-    // Determina a classe CSS baseado no status
-    const statusClass = media >= 7 ? 'aprovado' : 'reprovado';
-  
+// <CardAluno nome="" serie="" media={0}/>
+function CardAluno(props) {
+    const classe = props.media >= 7 ? "aprovado" : "reprovado";
+
     return (
-      <div className={`card-aluno ${statusClass}`}>
-        <h2>{nome}</h2>
-        <p>Série: {serie}</p>
-        <p>Média: {media}</p>
-        <p>{status}</p>
-      </div>
+        <article className="card-aluno">
+            <h4>{props.nome}</h4>
+            <p>Série: {props.serie}</p>
+            <strong className={classe}>Média: {props.media}</strong>
+            <p className={classe}>{props.media >= 7 ? "Aprovado!" : "Reprovado!"}</p>
+        </article>
     );
-  }
-  
-  export default CardAluno;
- 
+}
+
+export default CardAluno;
