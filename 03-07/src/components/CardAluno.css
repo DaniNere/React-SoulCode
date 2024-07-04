@@ -1,0 +1,15 @@
+.card-aluno {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .aprovado {
+    background-color: lightgreen;
+  }
+  
+  .reprovado {
+    background-color: lightcoral;
+  }
+  
