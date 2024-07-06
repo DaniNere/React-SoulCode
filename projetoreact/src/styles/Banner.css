@@ -1,0 +1,30 @@
+/* Banner.css */
+
+.banner {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-text {
+  flex: 1; /* Ocupa todo o espaço disponível */
+  text-align: justify; /* Alinha o texto à esquerda */
+}
+
+.banner-text .title {
+  text-align: center; /* Alinha o título ao centro */
+}
+
+.banner-image img {
+  width: 100%; /* Ajusta a largura da imagem */
+  max-width: 350px; /* Largura máxima da imagem */
+}
