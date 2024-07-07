@@ -1,10 +1,10 @@
-import '../styles/Navbar.css'; 
+import "../styles/Navbar.css";
 
 function Navbar() {
   return (
     <header className="navbar">
       <hr />
-      <p className="navbar-title">Meu Portfólio</p>
+      <p className="navbar-title">Meu Portifólio</p>
       <nav>
         <ul className="navbar-list">
           <li className="navbar-item"> <a href="#about" className="navbar-link">Sobre</a></li>
