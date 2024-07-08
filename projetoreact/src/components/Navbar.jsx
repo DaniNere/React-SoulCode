@@ -1,20 +1,26 @@
-import "../styles/Navbar.css";
+import "../styles/Navbar.css"
+
+
+function handleClick(){
+alert("Você clicou!");
+}
+
 
 function Navbar() {
   return (
     <header className="navbar">
       <hr />
-      <p className="navbar-title">Meu Portifólio</p>
+      <p className="navbar-title">Meu Portfólio</p>
       <nav>
         <ul className="navbar-list">
-          <li className="navbar-item"><a href="#about" className="navbar-link">Sobre</a></li>
-          <li className="navbar-item"><a href="#projects" className="navbar-link">Projetos</a></li>
-          <li className="navbar-item"><a href="#contact" className="navbar-link">Contato</a></li>
-          <li className="navbar-item"><button className="navbar-button">Entrar</button></li>
+          <li className="navbar-item"> <a href="#about" className="navbar-link">Sobre</a></li>
+          <li className="navbar-item"> <a href="#projects" className="navbar-link">Projetos</a></li>
+          <li className="navbar-item"> <a href="#contact" className="navbar-link">Contato</a></li>
+          <button onClick={handleClick} className="navbar-button">Entrar</button>
         </ul>
       </nav>
     </header>
   );
 }
 
-export default Navbar;
+export default Navbar; 

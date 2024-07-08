@@ -1,10 +1,7 @@
-.navbar {
+.navbar{
   padding: 20px;
-  background-color: #F3F7EC;
-  color: #006989;
   display: flex;
-  justify-content: space-between;
-}
+  }
 
 .navbar-title {
   font-size: 24px;
@@ -15,8 +12,11 @@
 .navbar-list {
   list-style: none;
   padding: 0;
-  display: flex; /* Garantir que os itens da lista estejam na horizontal */
+  display: flex; 
   align-items: center;
+  margin-left: auto;
+  
+    
 }
 
 .navbar-item {
@@ -39,10 +39,10 @@
   border: none;
   padding: 8px 16px;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Adiciona transição para color */
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 .navbar-button:hover {
   background-color: #e6e0dd;
-  color: #003f4e; /* Adiciona alteração de cor no hover */
+  color: #003f4e; 
 }
