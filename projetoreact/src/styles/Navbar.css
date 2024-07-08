@@ -4,8 +4,7 @@
   color: #006989;
   display: flex;
   justify-content: space-between;
-
-  }
+}
 
 .navbar-title {
   font-size: 24px;
@@ -16,12 +15,12 @@
 .navbar-list {
   list-style: none;
   padding: 0;
+  display: flex; /* Garantir que os itens da lista estejam na horizontal */
+  align-items: center;
 }
 
 .navbar-item {
-  display: inline;
   margin: 0 10px;
-  text-align: right;
 }
 
 .navbar-link {
@@ -31,7 +30,7 @@
 }
 
 .navbar-link:hover {
-  color: #006989;
+  color: #003f4e;
 }
 
 .navbar-button {
@@ -40,10 +39,10 @@
   border: none;
   padding: 8px 16px;
   cursor: pointer;
-  transition: background-color 0.3s;
- 
+  transition: background-color 0.3s, color 0.3s; /* Adiciona transição para color */
 }
 
 .navbar-button:hover {
   background-color: #e6e0dd;
+  color: #003f4e; /* Adiciona alteração de cor no hover */
 }
