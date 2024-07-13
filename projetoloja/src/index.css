@@ -1,0 +1,31 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+html, body, #root {
+  height: 100%;
+}
+
+.form-section{
+  width: 320px;
+  margin: 16px auto;
+  flex-direction: column;
+  }
+  
+  .invalid{
+      color: red;
+  }
+  
+  .footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .card {
+    margin-bottom: 3rem;
+    padding: 1rem;
+  }
+
+
+  
